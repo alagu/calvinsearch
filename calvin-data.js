@@ -1,4 +1,4 @@
-[["851117", "Calvin and Hobbes November 18 It starts all over again!"],
+var calvin = [["851117", "Calvin and Hobbes November 18 It starts all over again!"],
  ["851118", "So long Pop! I'm off to check my tiger trap! I rigged a tuna fish sandwich yesterday, so I'm sure to have a tiger by now! They like tuna fish, huh? Tigers will do anything for a tuna fish sandwich. We're kind of stupid that way.  Munch Munch"],
  ["851119", "So Dad, what do I do when I catch a tiger? Bring it home and stuff it Calvin! Can't you see I'm busy? Sheesh. No, really, I couldn't eat another bite!"],
  ["851120", "What's all this noise? You're supposed to be asleep! It was Hobbes, Dad! He was jumping on the bed! Honest! \"Hobbes\" was not jumping on the bed! Now go to sleep! You were too jumping on the bed! Well, you were the one playing the cymbals!!"],
@@ -3692,4 +3692,4 @@
  ["951228", "Sometimes at night I worry about things and then I can't fall asleep. In the dark, it's easier to imagine awful possibilities that you'd never be prepared for. And it's hard to feel couragious in loose-fitting, drowsy bear jammies. That's why tigers sleep in the buff!"],
  ["951229", "See my snowman? He's enjoying the snow cone! There's nothing he likes better! And the snowman with the ice cream scoop in his back? It's a sordid story."],
  ["951230", "Are you making any resolutions for the new year? Yeah, I'm resolving to just wing it and see what happens. So you're staying the course? I stick to my strengths."],
- ["951231", "Wow, it really snowed last night! Isn't it wonderful? Everything familiar has disappeared! The world looks brand new! A new year... a fresh, clean start! It's like having a big white sheet of paper to draw on! A day full of possibilities! It's a magical world, Hobbes, ol'd buddy... ...let's go exploring!"]]
+ ["951231", "Wow, it really snowed last night! Isn't it wonderful? Everything familiar has disappeared! The world looks brand new! A new year... a fresh, clean start! It's like having a big white sheet of paper to draw on! A day full of possibilities! It's a magical world, Hobbes, ol'd buddy... ...let's go exploring!"]];
