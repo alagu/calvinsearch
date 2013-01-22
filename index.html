@@ -8,21 +8,70 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
   
   <title dir="ltr">Calvin and Hobbes search</title>
-
+  <link href="bootstrap.min.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<style>
+h1 img{
+  margin: 10px auto;
+}
 
+.container-narrow {
+margin: 0 auto;
+max-width: 900px;
+}
+
+.result-item {
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  text-align: center;
+  min-height:220px;
+}
+
+.link {
+  font-size: 11px;
+}
+
+.image-item {
+  min-width: 270px;
+  min-height: 50px;
+  background-color: #eee;
+}
+
+</style>
 </head>
 <body>
-
-<div id="status"></div>
-<form id="search-form">
-    <input type="text" id="search" value="">
-    <input type="submit" name="Search" value="Search">
-    <div id="results">
+<div class="container-narrow">
+  <div class="row">
+    <div class="span3 offset3"><h1><img src="header.png"></h1></div>
+  </div>
+  <div class="row">
+    <div class="span3 offset3">
+      <form class="form-search" id="search-form">
+        <input type="text" id="search" class="input-medium search-query">
+        <button type="submit" class="btn">Search</button>
+        <div id="status">.</div>
+      </form>
     </div>
-</form>
+  </div>
+
+  <div id="results" class="row">
+  </div>
+
+</div>
+
+
 <script src="jquery-1.7.1.min.js"></script>
-<script src="calvin-data.js?v=1"></script>
+<script src="handlebars.js?v=1"></script>
 <script src="script.js?v=1"></script>
+<script id="result-template" type="text/x-handlebars-template">
+<div class="span3 result-item" id="{{ fulldate }}">
+  <a href="http://www.gocomics.com/calvinandhobbes/19{{year}}/{{month}}/{{date}}" class="link" target="_blank">
+    <img id="img-{{ fulldate }}" class="image-item" src="" >
+  </a>
+  <a href="http://www.gocomics.com/calvinandhobbes/19{{year}}/{{month}}/{{date}}" class="link" target="_blank">view</a>
+</div>
+</script>
 </body>
 </html>
