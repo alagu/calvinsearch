@@ -1,4 +1,4 @@
-var calvin = {
+self.calvin = {
     "901120": "I hate doing this stuff! It's too much work. Why should I bother? \"Until you can stalk and overrun, you can't devour anyone.\" I can see why tiger aphorisms don't catch on.", 
     "901121": "\"Live for the moment\" is MY motto. You never know how long you've got! You could step into the road tomorrow and WHAM - you get hit by a cement truck! Then you'd be sorry you put off your pleasures! That's why I say \"Live for the moment\". What's YOUR motto? \"Look down the road.\"", 
     "901122": "I've decided I don't want to be famous. No? Nah. ANY idiot can be famous. I figure I'M more the LEGENDARY type! Uh huh. Well, I didn't mean right this second!", 
