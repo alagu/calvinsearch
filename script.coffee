@@ -4,12 +4,8 @@
 
   window.results = null
 
-  window.fetch_images = (data)->
-    debugger
-    console.log(data)
-
   report_result = (results)->
-    page = 0
+    page = 1
     for index, text of results
       page++
       year  = index[0] + index[1]
@@ -27,14 +23,13 @@
       fulldate = index
       $.getJSON(yql_url, (data)->
         fulldate = data.query.diagnostics.url.content.split("?index=")[1]
-        console.log fulldate
         $("#img-#{fulldate}").attr("src",data.query.results.img.src)
       )
       template = Handlebars.compile($('#result-template').html())
       content = template(data)
       content = content.replace("&lt;b&gt;", "<b>").replace("&lt;/b&gt;", "</b>")
       $("#results").append($(content))
-      break if page > 10
+      break if page > 11
 
     $("#status").html("")
 
